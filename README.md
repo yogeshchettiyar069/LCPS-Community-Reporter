@@ -116,7 +116,18 @@ MySQL Database
 
 # 📸 Screenshots
 
-Coming Soon
+## Report Issue with Live Location
+![Report Issue](screenshots/report-issue-map.png)
+
+---
+
+## Authority Dashboard
+![Authority Dashboard](screenshots/authority-dashboard.png)
+
+---
+
+## Admin Analytics Dashboard
+![Admin Dashboard](screenshots/admin-dashboard.png)
 
 ---
 
