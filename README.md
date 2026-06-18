@@ -155,5 +155,32 @@ Mumbai, India
 GitHub:
 https://github.com/yogeshchettiyar069
 
+## 📂 Project Structure
+
+LCPS/
+├── src/main/java/
+│ ├── controller/
+│ ├── operations/
+│ ├── implementor/
+│ ├── model/
+│ ├── db_config/
+│ ├── listener/
+│ └── utils/
+│
+├── src/main/resources/
+│ ├── config.properties
+│ └── config.properties.example
+│
+├── src/main/webapp/
+│ ├── admin/
+│ ├── authority/
+│ ├── citizen/
+│ ├── worker/
+│ ├── css/
+│ ├── uploads/
+│ └── WEB-INF/
+│
+└── screenshots/
+
 
 
