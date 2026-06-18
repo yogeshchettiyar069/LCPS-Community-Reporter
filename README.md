@@ -112,25 +112,11 @@ Authorities can review complaints, assign workers, monitor progress, and verify 
 ---
 
 
-## 🏗 Architecture
+## 🏗 System Architecture
 
-Citizen
-↓
-Servlet Layer
-↓
-Operations Layer
-↓
-DAO Layer
-↓
-MySQL Database
-↓
-Authority Dashboard
-↓
-Worker Dashboard
-↓
-Admin Dashboard
+![Architecture](screenshots/system-architecture.png)
 
----
+LCPS follows the MVC2 (Model-View-Controller) architecture using Java Servlets, JSP, JDBC and MySQL. The system consists of Citizen, Authority, Worker and Admin modules that communicate through a layered architecture comprising Presentation, Controller, Business and DAO layers.
 
 ## 🚀 Future Improvements
 
