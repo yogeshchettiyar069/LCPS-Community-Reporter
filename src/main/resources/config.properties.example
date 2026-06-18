@@ -1,0 +1,26 @@
+# ============================================================
+# LCPS Configuration — EXAMPLE TEMPLATE  (safe to commit)
+# ------------------------------------------------------------
+# Setup:
+#   1. Copy this file to "config.properties" in the same folder.
+#   2. Fill in your real values below, OR
+#   3. Leave it and instead set environment variables, which
+#      OVERRIDE the file (recommended for deployment):
+#        db.url      -> DB_URL
+#        db.user     -> DB_USER
+#        db.password -> DB_PASSWORD
+#        mail.from   -> MAIL_FROM
+#        mail.password -> MAIL_PASSWORD   ... etc.
+#
+# The real config.properties is gitignored — never commit secrets.
+# ============================================================
+
+db.url=jdbc:mysql://localhost:3306/community_reporter?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+db.user=your_db_user
+db.password=your_db_password
+
+mail.smtp.host=smtp.gmail.com
+mail.smtp.port=587
+mail.from=your_email@gmail.com
+mail.password=your_gmail_app_password
+mail.from.name=LCPS System

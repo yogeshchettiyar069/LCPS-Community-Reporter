@@ -1,0 +1,29 @@
+# Eclipse files
+.project
+.classpath
+.settings/
+
+# Build folders
+build/
+bin/
+target/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Compiled classes
+*.class
+
+# Secrets
+src/main/resources/config.properties
+
+# Upload folder
+src/main/webapp/uploads/
+
+# OS files
+.DS_Store
+Thumbs.db
