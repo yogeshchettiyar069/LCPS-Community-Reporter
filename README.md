@@ -1,4 +1,5 @@
 # LCPS - Local Community Problem Solver 🚀
+![License](https://img.shields.io/badge/License-MIT-green.svg)
 
 A full-stack civic complaint management system that enables citizens to report local community issues, authorities to manage complaints, and workers to resolve them efficiently.
 
