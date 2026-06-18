@@ -129,6 +129,42 @@ LCPS follows the MVC2 (Model-View-Controller) architecture using Java Servlets, 
 * Machine Learning Based Complaint Prioritization
 
 ---
+---
+
+## 🗄 Database Setup
+
+**Database Name:** `community_reporter`
+
+📥 **SQL Script:** [community_reporter.sql](database/community_reporter.sql)
+
+### Import Using MySQL
+
+```sql
+CREATE DATABASE community_reporter;
+USE community_reporter;
+SOURCE database/community_reporter.sql;
+```
+
+### Import Using MySQL Workbench
+
+1. Open **MySQL Workbench**
+2. Go to **Server → Data Import**
+3. Select **Import from Self-Contained File**
+4. Choose `database/community_reporter.sql`
+5. Click **Start Import**
+
+### Database Contents
+
+- Users Management
+- Departments Management
+- Complaint Reports
+- Report Timeline & Status History
+- Notifications System
+- Worker Assignments
+- Ratings & Feedback
+- Sample Data for Demonstration
+
+---
 
 ## 👨‍💻 Developer
 
